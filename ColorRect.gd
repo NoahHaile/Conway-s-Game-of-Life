@@ -4,7 +4,7 @@ const Cell = preload("res://cell.gd")
 
 var cellSize = 30
 var gap = 2
-var number_of_rows
+var number_of_rows = get_viewport_rect().size.x / (cellSize + gap)
 
 func _ready():
 	# Set the initial color of the ColorRect to black.
