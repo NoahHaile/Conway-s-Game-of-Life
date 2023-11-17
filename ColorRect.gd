@@ -47,7 +47,7 @@ func count_living_neighbors(index, cell_states):
 	var living_neighbors_count = 0
 	
 	if( index - number_of_rows >= 0 ):
-		print("sdfadf")
+		
 		if cell_states[index - number_of_rows] == true:
 			living_neighbors_count += 1
 			
@@ -91,7 +91,7 @@ func survival_check():
 	var i = 0
 	for cell_life in cell_states:
 		var living_neighbors_count = count_living_neighbors(i, cell_states)
-		
+		i += 1
 		if cell_life:
 			if living_neighbors_count == 2 || living_neighbors_count == 3:
 				future_cell_states.append(true) 
