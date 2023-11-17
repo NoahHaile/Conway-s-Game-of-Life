@@ -2,8 +2,8 @@ extends ColorRect
 const Cell = preload("res://cell.gd")
 # Called when the node enters the scene tree for the first time.
 
-var cellSize = 30
-var gap = 2
+var cellSize = 7
+var gap = 1
 var number_of_rows = get_viewport_rect().size.x / (cellSize + gap)
 
 func _ready():
