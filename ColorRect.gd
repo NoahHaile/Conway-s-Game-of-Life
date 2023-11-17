@@ -4,6 +4,9 @@ extends ColorRect
 func _ready():
 	# Set the initial color of the ColorRect to black.
 	self.color = Color.BLACK
+	self.size = get_viewport_rect().size
+	
+	
 	# Make sure the ColorRect is reacting to mouse input.
 	set_process_input(true)
 
