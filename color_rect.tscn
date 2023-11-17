@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://d3fw3rijn22wt"]
+
+[ext_resource type="Script" path="res://ColorRect.gd" id="1_weeo4"]
+
+[node name="ColorRect" type="ColorRect"]
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_weeo4")
+metadata/_edit_group_ = true
